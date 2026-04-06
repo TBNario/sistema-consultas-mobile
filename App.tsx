@@ -58,6 +58,6 @@ const styles = StyleSheet.create({
     borderRadius: 8,
   },
   botao:{
-    marginTop: 9,
+    marginTop: 15,
   }
 });
