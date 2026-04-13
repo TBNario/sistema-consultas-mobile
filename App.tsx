@@ -22,7 +22,7 @@ export default function App() {
 
   const medico1: Medico = {
     id: 1,
-    nome: "Dr. Roberto Silva",
+    nome: "Dr. Obi-Wan Kenobi",
     crm: "CRM12345",
     especialidade: cardiologia,
     ativo: true,
@@ -30,9 +30,9 @@ export default function App() {
 
   const paciente1: Paciente = {
     id: 1,
-    nome: "Carlos Andrade",
+    nome: "Anakin Skywalker",
     cpf: "123.456.789-00",
-    email: "carlos@email.com",
+    email: "anakin.skywalker@email.com",
     telefone: "(11) 98765-4321",
   };
 
@@ -68,7 +68,7 @@ export default function App() {
         {/* Cabeçalho */}
         <View style={styles.header}>
           <Text style={styles.titulo}>Sistema de Consultas</Text>
-          <Text style={styles.subtitulo}>Consulta #{consulta.id}</Text>
+          <Text style={styles.subtitulo}> Sua Consulta #{consulta.id}</Text>
         </View>
 
         <ConsultaCard
